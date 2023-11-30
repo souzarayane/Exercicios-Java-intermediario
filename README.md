@@ -1,59 +1,55 @@
-# Exercício: Sistema de Gerenciamento de Funcionários em Java
+# Exercícios Java - Nível Intermediário
 
-Este exercício tem como objetivo praticar conceitos fundamentais de programação orientada a objetos (POO) em Java, incluindo a criação de classes, herança, encapsulamento, polimorfismo e uso de interfaces.
-
-## Descrição do Exercício
-
-### 1. Crie a classe `Funcionario`
-
-- A classe `Funcionario` deve ter os seguintes atributos privados:
-  - `nome` (String)
-  - `idade` (int)
-  - `salario` (double)
-
-- Crie um construtor para inicializar esses atributos.
-- Implemente métodos getters e setters para acessar e modificar os atributos.
-
-### 2. Crie a classe `Gerente`
-
-- A classe `Gerente` deve estender a classe `Funcionario`.
-- Adicione um atributo adicional específico para gerentes, como `departamento` (String).
-- Modifique o construtor para lidar com esse novo atributo.
-
-### 3. Implemente a Interface `PodeTrabalhar`
-
-- Crie uma interface chamada `PodeTrabalhar` com um método `trabalhar()`.
-- Implemente essa interface na classe `Funcionario` e na classe `Gerente`, cada uma com uma implementação específica do método `trabalhar()`.
-
-### 4. Teste o Sistema
-
-- No método `main` de uma classe principal, crie alguns objetos `Funcionario` e `Gerente`.
-- Chame os métodos para definir e obter os atributos, e chame o método `trabalhar()` em cada objeto.
+Este repositório contém uma série de exercícios em Java destinados a desenvolvedores com um conhecimento intermediário na linguagem. Os exercícios abrangem conceitos fundamentais de programação orientada a objetos (POO), estruturas de controle, manipulação de exceções e outras áreas-chave.
 
 ## Como Usar
 
 1. Clone este repositório em sua máquina local:
 
     ```bash
-    git clone https://github.com/seu-usuario/exercicio-gerenciamento-funcionarios-java.git
+    git clone https://github.com/seu-usuario/exercicios-java-intermediario.git
     ```
 
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd exercicio-gerenciamento-funcionarios-java
+    cd exercicios-java-intermediario
     ```
 
-3. Abra o projeto em seu ambiente de desenvolvimento e comece a implementar as classes conforme as instruções.
+3. Cada exercício está em seu próprio diretório numerado. Abra o diretório do exercício desejado para encontrar uma descrição do problema e um esqueleto de código.
 
-4. Teste suas implementações.
+4. Resolva os exercícios modificando ou adicionando código conforme necessário.
 
-5. Compartilhe e colabore! Sinta-se à vontade para abrir problemas ou enviar solicitações de pull.
+5. Teste suas soluções.
+
+6. Compartilhe e colabore! Sinta-se à vontade para abrir problemas, propor melhorias ou enviar solicitações de pull.
+
+## Exercícios Disponíveis
+
+1. **Sistema de Gerenciamento de Funcionários**
+   - Criação de classes, herança, encapsulamento, polimorfismo básico.
+   - Interface para definição de comportamento comum.
+
+2. **Estrutura de Dados - Lista Encadeada**
+   - Implementação de uma lista encadeada simples.
+   - Inclusão, exclusão e busca de elementos.
+
+3. **Manipulação de Arquivos**
+   - Leitura e escrita de arquivos.
+   - Processamento de dados a partir de arquivos.
+
+4. **Tratamento de Exceções**
+   - Manipulação de exceções em cenários específicos.
+   - Garantir robustez no código.
 
 ## Contribuindo
 
-Se você encontrar bugs, tiver sugestões de melhorias ou quiser adicionar mais funcionalidades ao exercício, sinta-se à vontade para contribuir. Basta criar uma ramificação, fazer suas alterações e enviar uma solicitação de pull.
+Sinta-se à vontade para contribuir com novos exercícios, melhorias nas instruções ou correções de bugs. Basta criar uma ramificação, fazer suas alterações e enviar uma solicitação de pull.
 
 ## Licença
 
-Este exercício é distribuído sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Sinta-se à vontade para utilizar, modificar e distribuir conforme necessário.
+
+---
+
+Divirta-se programando em Java! Se tiver alguma dúvida ou sugestão, não hesite em entrar em contato.
