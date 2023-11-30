@@ -26,7 +26,7 @@ Este repositório contém uma série de exercícios em Java destinados a desenvo
 
 ## Exercícios Disponíveis
 
-1. **Sistema de Gerenciamento de Funcionários**
+1. **[Sistema de Gerenciamento de Funcionários](https://github.com/souzarayane/Exercicios-Java-intermediario/tree/main/src/exercicio01)**
    - Criação de classes, herança, encapsulamento, polimorfismo básico.
    - Interface para definição de comportamento comum.
 
